@@ -52,6 +52,7 @@ RUN \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
+mv /usr/lib/plexmediaserver/Plex\ Transcoder /usr/lib/plexmediaserver/Plex\ Transcoder_orig
 
 # add local files
 COPY root/ /

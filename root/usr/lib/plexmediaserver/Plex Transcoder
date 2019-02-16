@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/lib/plexmediaserver/Plex\ Transcoder_orig -hwaccel nvdec "$@"
